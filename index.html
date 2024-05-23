@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <h1>Тестування для учнів початкових класів</h1> -->
+        <div id="quiz-container">
+            <p id="question">Запитання буде тут</p>
+            <div class="options">
+                <button class="option" onclick="checkAnswer(0)">Відповідь 1</button>
+                <button class="option" onclick="checkAnswer(1)">Відповідь 2</button>
+                <button class="option" onclick="checkAnswer(2)">Відповідь 3</button>
+            </div>
+            <button id="next-button" onclick="nextQuestion()">Наступне запитання</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
